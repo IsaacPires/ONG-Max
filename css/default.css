@@ -337,7 +337,9 @@ h6, .h6 {
 }
 .lead {
   font-size: 1.2rem;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #181816 ;
+}
 
 .display-1 {
   font-size: 5rem;
@@ -432,10 +434,10 @@ mark,
 }
 
 .imgPadrao2 {
-  margin-right: 10%;
   margin-top: 7%;
   height: 80%;
   width: 100%; 
+  border-radius: 20px;
 
 }
 
@@ -7070,7 +7072,16 @@ a.text-dark:hover, a.text-dark:focus {
   color: #0a0c0d !important; }
 
 .text-muted {
-  color: #868e96 !important; }
+  color: #DCDCDC !important;
+  font-style: italic;
+
+ }
+
+ .text-frase {
+  color: #708090 ;
+  font-style: italic;
+
+ }
 
 .text-hide {
   font: 0/0 a;
@@ -7254,6 +7265,10 @@ p a, .border-link {
 
 .dot-circle.right:before {
   right: -25px; }
+
+.whiteWord{
+  color: #F5F5EF ;
+}
 
 .demo-wrapper {
   margin-top: 40px;
@@ -7455,7 +7470,7 @@ footer a {
   line-height: 40px;
   right: -100px;
   color: #F5F5EF;
-  background-color: rgba(0, 229, 255, 0.5); }
+  background-color: rgba(70, 105, 159); }
   .scroll-top:hover {
     background-color: #F88F2F;
     transition: all .4s ease-in-out; }
